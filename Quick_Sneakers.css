@@ -1,0 +1,35 @@
+body{
+  background-color: white;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+h1{
+  color: white;
+  font-size: 42px;
+
+}
+h2{
+  color: black;
+  font-size: 20px;
+}
+
+
+footer{
+  color: #babdc1;
+}
+
+header{
+
+}
+.main_img{
+  background-color: #ed4d2d;
+  color: white;
+}
+
+.secondary_img{
+  background-color: #ed4d2d;
+  color: white;
+}
+.main_body{
+
+}
