@@ -126,6 +126,10 @@ img{
   text-decoration: none;
 }
 
+.nav_body{
+
+}
+
 .nav_bottom_right{
   color: transparent;
   float: right;
@@ -165,7 +169,8 @@ img{
   max-height: 250px;
   padding: 10px;
   float:left;
-  clearfix;
+  display: inline-block;
+
 }
 .main_img a{
   color: white;
@@ -179,9 +184,10 @@ img{
     width: 250px;
     height: 250px;
     padding: 10px;
-    clearfix;
     /*float: right;*/
   /*clear: both*/
+  display: inline-block;
+
 }
 
 .main_img_container_right a{

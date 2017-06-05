@@ -4,25 +4,53 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
 
   <body>
 
     <header>
-        <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/logo.jpg" alt="logo">
+        <img class="logo" src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/logo.jpg" alt="logo">
+        <nav class="nav_primary">
+          <a href="#">mens</a>
+          <a href="#">womens</a>
+          <a href="#">childrens</a>
+          <a href="#">customize</a>
+        </nav>
+
+        <nav class="nav_top_right">
+          <a href="#">help</a>
+          <a href="#">my account</a>
+          <a href="#">shopping cart</a>
+        </nav>
+
     </header>
 
     <section class="main_img">
-      <a href="http://placeholder.com"><p>return to shoes</a>
-      <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe1.png" alt="Great Sneakers Shoe 1"></p>
-      <h1>Quick Sneakers</h1>
-      <p>words words words words words words words words words words words<br>
-        <a href="http://becomethink.com">Read The Reviews</p></a>
-        <p>$120.00</p>
-        <a href="http://placeholder.com">Buy Now!</a>
+      <div class="main_img_container_left"><a href="http://placeholder.com"><p>return to shoes</a>
+        <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/shoe1.png" alt="Great Sneakers Shoe 1"></p>
+      </div>
 
+      <div class="main_img_container_right">
+        <h1>Quick Sneakers</h1>
+        <p>words words words words words words words words words words words<br>
+          <a href="http://becomethink.com">Read The Reviews</p></a>
+          <p>$120.00</p>
+         <a href="http://placehold.it">Buy Now!</a>
+         </div>
     </section>
+
     <section class="main_body">
+      <nav class="nav_body">
+          <a href="http://becomethink.com"></p>Product Details</a>
+          <a href="http://becomethink.com">Size and Fit</p></a>
+      </nav>
+
+      <div class="review_rating">
+        <p>Reviews</p>
+      </div>
+
       <h2>Existing Topic</h2>
       <p>these are cool sneakers</p>
       <h2>Find Your Shoe Size and Fit</h2>
@@ -42,11 +70,25 @@
     </section>
 
     <footer>
-      <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/logo.jpg" alt="logo">
-      <a href="shipping.com">Shipping</a></li> |
-      <a href="terms_and_conditions.com">Terms and Conditions</a></li>
-      | &copy; Copyright 2017, Sneaker Shop, LLC
+
+      <img class="logo" src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/logo.jpg" alt="logo">
+
+      <nav class="nav_primary">
+        <a href="#">mens</a>
+        <a href="#">womens</a>
+        <a href="#">childrens</a>
+        <a href="#">customize</a>
+      </nav>
+
+      <nav class="nav_bottom_right">
+        <img src="/Users/emmadean/Desktop/Web_Dev_Basics_TIY/Assignments/Day_One/images/logo.jpg" alt="logo">
+        <a href="shipping.com">Shipping</a>
+        <a href="terms_and_conditions.com">Terms and Conditions</a>
+        <a href="#">| &copy; Copyright 2017, Sneaker Shop, LLC </a>
+      </nav>
+
     </footer>
+
   </body>
 
 </html>
